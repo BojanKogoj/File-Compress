@@ -5,7 +5,10 @@ Compressing and decompressing files using QProcess
 Copy whole FileCompress folder to your src/
 
 First add this to your .h file:
-```#include "FileCompress/FileCompress.h"```
+```
+#include "FileCompress/FileCompress.h"
+```
+
 And this:
 ```
 private:
