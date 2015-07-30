@@ -22,12 +22,10 @@ private:
     void startProcess(QString process, QStringList arguments);
     QProcess* zip;
 
-    private slots:
-    //void onError(QProcess::ProcessError error);
+private slots:
     void onFinished(int exitCode, QProcess::ExitStatus exitStatus);
-    //void onStarted();
-    //void onStateChanged(QProcess::ProcessState newState);
-    signals:
+
+signals:
     void error(QProcess::ProcessError error);
     void finished(int exitCode, QProcess::ExitStatus exitStatus);
     void started();

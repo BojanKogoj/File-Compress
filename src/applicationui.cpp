@@ -69,7 +69,6 @@ void ApplicationUI::decompress()
 
     compressFile = new FileCompress();
     compressFile->decompress(zipFile, outputFolder);
-
 }
 
 void ApplicationUI::compress()
@@ -86,5 +85,4 @@ void ApplicationUI::compress()
 
     compressFile = new FileCompress();
     compressFile->compress(files, outputFile);
-
 }
